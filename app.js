@@ -118,27 +118,27 @@ function addElementToGallery() {
   const galleryData = [
     {
       id_no: "0",
-      pic: "/starter-code/assets/image-slide-3.jpg",
+      pic: "/assets/image-slide-3.jpg",
       picalt: "Amy's project",
     },
     {
       id_no: "01",
-      pic: "/starter-code/assets/image-slide-4.jpg",
+      pic: "/assets/image-slide-4.jpg",
       picalt: "Amy's project",
     },
     {
       id_no: "02",
-      pic: "/starter-code/assets/image-slide-5.jpg",
+      pic: "/assets/image-slide-5.jpg",
       picalt: "Amy's project",
     },
     {
       id_no: "03",
-      pic: "/starter-code/assets/image-slide-1.jpg",
+      pic: "/assets/image-slide-1.jpg",
       picalt: "Amy's project",
     },
     {
       id_no: "04",
-      pic: "/starter-code/assets/image-slide-2.jpg",
+      pic: "/assets/image-slide-2.jpg",
       picalt: "Amy's project",
     },
   ];
