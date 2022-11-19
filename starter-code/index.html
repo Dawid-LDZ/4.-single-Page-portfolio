@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Frontend Mentor | Single-page design portfolio</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img class="logo" src="/starter-code/assets/logo.svg" alt="logo" />
+        <button type="button" value="OK" class="contact1">
+          Free Consultation
+        </button>
+      </header>
+      <main>
+        <section class="title">
+          <h1>Design solutions made easy</h1>
+          <p>
+            With over ten years of experience in various design disciplines, I'm
+            your one-stop shop for your design needs.
+          </p>
+        </section>
+        <section class="blocks" id="blocks"></section>
+        <section class="about_me">
+          <img
+            class="face"
+            src="/starter-code/assets/image-amy.webp"
+            alt="Amy photo"
+          />
+          <div class="about_me_text">
+            <h2>I'm Amy, and I'd love to work on your next project</h2>
+            <p>
+              I love working with others to create beautiful design solutions.
+              I've designed everything from brand illustrations to complete
+              mobile apps. I'm also handy with a camera!
+            </p>
+            <button class="contact2">Free Consultation</button>
+          </div>
+        </section>
+        <section class="my_work">
+          <h2>My Work</h2>
+          <div class="carousel-container" id="carusel-container"></div>
+          <div class="arrows">
+            <button class="arrow" id="prevBtn">
+              <img
+                class="ar"
+                src="/starter-code/assets/icon-arrow-left.svg"
+                alt="left arrow"
+              />
+            </button>
+            <button class="arrow" id="nextBtn">
+              <img
+                class="ar"
+                src="/starter-code/assets/icon-arrow-right.svg"
+                alt="right arrow"
+              />
+            </button>
+          </div>
+        </section>
+        <section class="call_me">
+          <div class="call_me_text">
+            <h2>Book a call with me</h2>
+            <p>
+              I'd love to have a chat to see how I can help you. The best first
+              step is for us to discuss your project during a free consultation.
+              Then we can move forward from there.
+            </p>
+          </div>
+          <button class="contact2">Free Consultation</button>
+        </section>
+      </main>
+      <footer>
+        <img class="logo" src="/starter-code/assets/logo.svg" alt="logo" />
+        <button class="contact1">Free Consultation</button>
+      </footer>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
