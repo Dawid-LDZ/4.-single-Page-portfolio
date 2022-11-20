@@ -56,6 +56,7 @@ html {
     line-height: 26px;
   }
 }
+/*--- HEADER ---*/
 header {
   display: flex;
   flex-direction: row;
@@ -96,6 +97,8 @@ button:active {
 .contact2:hover {
   background-color: var(--SoftOrange);
 }
+/*--- HEADER END ---*/
+/*--- TITLE ---*/
 .title {
   display: flex;
   flex-direction: column;
@@ -155,6 +158,8 @@ button:active {
 .motion {
   grid-area: six;
 }
+/*--- TITLE END ---*/
+/*--- ABOUT ME ---*/
 .about_me {
   display: flex;
   flex-direction: column;
@@ -179,6 +184,8 @@ button:active {
     color: var(--Typography);
   }
 }
+/*--- ABOUT ME END ---*/
+/*--- MY WORK ---*/
 .my_work {
   display: flex;
   flex-direction: column;
@@ -227,6 +234,8 @@ button:active {
   align-items: center;
   justify-items: center;
 }
+/*--- MY WORK END ---*/
+/*--- CALL ME ---*/
 .call_me {
   display: flex;
   flex-direction: column;
@@ -245,6 +254,8 @@ button:active {
   align-items: center;
   gap: 24px;
 }
+/*--- CALL ME END ---*/
+/*--- FOOTER ---*/
 footer {
   display: flex;
   flex-direction: row;
@@ -252,6 +263,7 @@ footer {
   align-items: center;
   padding: 40px 0 32px 0;
 }
+/*--- FOOTER END ---*/
 
 @media (min-width: 769px) and (max-width: 1440px) {
   .wrapper {
@@ -271,6 +283,7 @@ footer {
       line-height: 28px;
     }
   }
+  /*--- HEADER ---*/
   header {
     padding: 34px 0;
   }
@@ -283,6 +296,8 @@ footer {
     width: 228px;
     height: 56px;
   }
+  /*--- HEADER END ---*/
+  /*--- TITLE ---*/
   .title {
     gap: 26px;
     margin-top: 26px;
@@ -300,6 +315,8 @@ footer {
     grid-template-rows: 182px 158px 182px;
     gap: 24px 23px;
   }
+  /*--- TITLE END ---*/
+  /*--- ABOUT ME ---*/
   .about_me {
     display: flex;
     flex-direction: row;
@@ -328,6 +345,8 @@ footer {
       text-align: start;
     }
   }
+  /*--- ABOUT ME END ---*/
+  /*--- MY WORK ---*/
   .my_work {
     gap: 60px;
     margin-top: 120px;
@@ -342,6 +361,8 @@ footer {
     border-radius: 10px;
     margin: 0 15px;
   }
+  /*--- MY WORK END  ---*/
+  /*--- CALL ME ---*/
   .call_me {
     gap: 26px;
     padding: 56px 75px;
@@ -350,10 +371,13 @@ footer {
   .call_me_text {
     gap: 26px;
   }
+  /*--- CALL ME END  ---*/
+  /*--- FOOTER ---*/
   footer {
     padding: 56px 0;
   }
 }
+/*--- FOOTER END  ---*/
 
 @media (min-width: 1441px) {
   .wrapper {
@@ -373,6 +397,7 @@ footer {
       line-height: 28px;
     }
   }
+  /*--- HEADER  ---*/
   header {
     padding: 34px 0;
   }
@@ -385,6 +410,8 @@ footer {
     width: 228px;
     height: 56px;
   }
+  /*--- HEADER END  ---*/
+  /*--- TITLE ---*/
   .title {
     gap: 24px;
     margin-top: 30px;
@@ -401,6 +428,8 @@ footer {
     grid-template-rows: 182px 158px;
     gap: 24px 24px;
   }
+  /*--- TITLE END  ---*/
+  /*--- ABOUT ME ---*/
   .about_me {
     display: flex;
     flex-direction: row;
@@ -430,6 +459,8 @@ footer {
       text-align: start;
     }
   }
+  /*--- ABOUT ME END  ---*/
+  /*--- MY  WORK ---*/
   .my_work {
     gap: 60px;
     margin-top: 120px;
@@ -444,7 +475,8 @@ footer {
     border-radius: 10px;
     margin: 0 15px;
   }
-
+  /*--- MY WORK END  ---*/
+  /*--- CALL ME ---*/
   .call_me {
     display: flex;
     flex-direction: row;
@@ -459,7 +491,10 @@ footer {
     max-width: 540px;
     text-align: left;
   }
+  /*--- CALL ME END  ---*/
+  /*--- FOOTER ---*/
   footer {
     padding: 56px 0;
   }
 }
+/*--- FOOTER END  ---*/
